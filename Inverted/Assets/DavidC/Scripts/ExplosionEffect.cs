@@ -16,7 +16,7 @@ public class ExplosionEffect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)) //Instantiates/Plays the effect when we press space 
+        if(Input.GetKeyDown(KeyCode.Q)) //Instantiates/Plays the effect when we press space 
         {
             Instantiate(Explosion, transform.position, Quaternion.identity);
         }
