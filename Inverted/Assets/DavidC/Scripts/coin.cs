@@ -17,7 +17,8 @@ public class coin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Physics2D.OverlapCircle(this.transform.position, CollectRadius, PlayerMask)) ;
+        Collider2D playerCollider = Physics2D.OverlapCircle(this.transform.position, CollectRadius, PlayerMask);decimal  d
+        if (playerCollider != null)
         {
             SCR.FoundCoin();
             Destroy(this.gameObject);
