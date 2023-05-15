@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 1679673386}
   m_Layer: 0
   m_Name: HealthManager
-  m_TagString: Untagged
+  m_TagString: HealthManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -477,6 +477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1416800959}
   healthAmount: 100
+  Instance: {fileID: 0}
 --- !u!4 &1679673387
 Transform:
   m_ObjectHideFlags: 0

@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 public class killPlayer : MonoBehaviour
 {
     public int Respawn;
+    private HealthManager healthManager;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        healthManager = GameObject.FindGameObjectWithTag("HealthManager").GetComponent<HealthManager>();
     }
 
     // Update is called once per frame
@@ -22,6 +24,7 @@ public class killPlayer : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            healthManager.TakeDamage(25f);
             SceneManager.LoadScene(Respawn);
         }
     }
