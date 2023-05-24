@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+guid: 8c81dd8c1f6918b4abbe00dae8371a39
+========
 guid: 91e5bbfed6dd69245a8382c89c373300
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -52,7 +56,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -164,6 +168,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_0
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 3102
+        width: 388
+        height: 356
+========
       name: iso_0
       rect:
         serializedVersion: 2
@@ -171,6 +184,7 @@ TextureImporter:
         y: 108
         width: 36
         height: 18
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,13 +192,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: f624f9e22aa96d7488c107073709384d
+      internalID: -1303853518
+========
       spriteID: 59b03e7c594717449a7c91381fc5b516
       internalID: -1063484152
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_1
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 3102
+        width: 356
+        height: 324
+========
       name: iso_1
       rect:
         serializedVersion: 2
@@ -192,6 +220,7 @@ TextureImporter:
         y: 118
         width: 12
         height: 8
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,13 +228,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: 55454b0fa3a18f44e85aba7968258a2f
+      internalID: -1865380245
+========
       spriteID: 9e5f3630506aeb54580019080790ffce
       internalID: 21464673
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_2
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 3070
+        width: 420
+        height: 292
+========
       name: iso_2
       rect:
         serializedVersion: 2
@@ -213,6 +256,7 @@ TextureImporter:
         y: 108
         width: 18
         height: 19
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,13 +264,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: 01991e20726c3174b947f183207cc372
+      internalID: 1221674578
+========
       spriteID: abf7f6af204d3b545a09148ad1550710
       internalID: 963464588
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_3
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2046
+        width: 420
+        height: 228
+========
       name: iso_3
       rect:
         serializedVersion: 2
@@ -234,6 +292,7 @@ TextureImporter:
         y: 119
         width: 6
         height: 8
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,13 +300,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: 2090c161327b94c49925924c694db660
+      internalID: 878128986
+========
       spriteID: 1dd431d299a24f043bad7568fb830d87
       internalID: -1796842652
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_4
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 2046
+        width: 548
+        height: 164
+========
       name: iso_4
       rect:
         serializedVersion: 2
@@ -255,6 +328,7 @@ TextureImporter:
         y: 108
         width: 18
         height: 19
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,13 +336,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: 9df14d8b719f0a1479cfb84800cecad5
+      internalID: 946658393
+========
       spriteID: 906ecce5c030aab45b51f24958f95986
       internalID: -47088171
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_5
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 2046
+        width: 484
+        height: 132
+========
       name: iso_5
       rect:
         serializedVersion: 2
@@ -276,6 +364,7 @@ TextureImporter:
         y: 119
         width: 8
         height: 8
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,13 +372,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: 3c167d5deaa4b834f8565fc5b3aee8eb
+      internalID: 222411977
+========
       spriteID: 13277e76c2d54174886fa6ebc2d58987
       internalID: -1917098947
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1022
+        width: 516
+        height: 100
+========
       name: iso_6
       rect:
         serializedVersion: 2
@@ -297,6 +400,7 @@ TextureImporter:
         y: 88
         width: 36
         height: 18
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,13 +408,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: aae1d4c4cf650d54c9ffe1153e5dc6a6
+      internalID: 1490508657
+========
       spriteID: 72534cdbd6466144c8bc24aaca26a706
       internalID: -1283953466
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_7
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1022
+        width: 452
+        height: 100
+========
       name: iso_7
       rect:
         serializedVersion: 2
@@ -318,6 +436,7 @@ TextureImporter:
         y: 98
         width: 12
         height: 8
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,13 +444,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: fd85f7c6435622149b1c761b77da6d6e
+      internalID: -2138262035
+========
       spriteID: 3180cba26194e024fb402d8ed31e8e2c
       internalID: -1962007913
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_8
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 1022
+        width: 452
+        height: 196
+========
       name: iso_8
       rect:
         serializedVersion: 2
@@ -339,6 +472,7 @@ TextureImporter:
         y: 88
         width: 18
         height: 17
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,13 +480,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: 1acb076f769a5744695a4621060fff68
+      internalID: 639510692
+========
       spriteID: 4128fa04de1ca0b4cb9ef20b97f02310
       internalID: 1933753900
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_9
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 420
+        height: 226
+========
       name: iso_9
       rect:
         serializedVersion: 2
@@ -423,6 +571,7 @@ TextureImporter:
         y: 68
         width: 36
         height: 18
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,13 +579,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: dd2a1b54d0fd8024d8a5dc58b0491250
+      internalID: -1682288098
+========
       spriteID: 977ef0842c86a7b49839a1e8b38215e9
       internalID: -951901263
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_10
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 30
+        width: 420
+        height: 292
+========
       name: iso_13
       rect:
         serializedVersion: 2
@@ -444,6 +607,7 @@ TextureImporter:
         y: 78
         width: 12
         height: 8
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -451,13 +615,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: 32dac6955a292fb41af09abe282f3053
+      internalID: 1484515613
+========
       spriteID: 96f4432bd91f4994ea67d4a0d08af43e
       internalID: -332160445
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      name: slimeCharacter_11
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 62
+        width: 388
+        height: 292
+========
       name: iso_14
       rect:
         serializedVersion: 2
@@ -465,6 +643,7 @@ TextureImporter:
         y: 68
         width: 18
         height: 17
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,12 +651,68 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      spriteID: fa7f9ed39c184c146bd167bada373f9c
+      internalID: 1415949737
+========
       spriteID: f7bf52734e122824cb89aa9c5d9afd64
       internalID: -310276738
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+    outline:
+    - - {x: -1289, y: 929}
+      - {x: -1289, y: 1475}
+      - {x: -719, y: 1475}
+      - {x: -719, y: 929}
+    - - {x: -234, y: 973}
+      - {x: -234, y: 1465}
+      - {x: 322, y: 1465}
+      - {x: 322, y: 973}
+    - - {x: 827, y: 899}
+      - {x: 827, y: 1458}
+      - {x: 1373, y: 1458}
+      - {x: 1373, y: 899}
+    - - {x: -1251, y: -112}
+      - {x: -1251, y: 387}
+      - {x: -675, y: 387}
+      - {x: -675, y: -112}
+    - - {x: -265, y: -139}
+      - {x: -265, y: 383}
+      - {x: 322, y: 383}
+      - {x: 322, y: -139}
+    - - {x: 760, y: -159}
+      - {x: 760, y: 326}
+      - {x: 1404, y: 326}
+      - {x: 1404, y: -159}
+    - - {x: -1302, y: -1207}
+      - {x: -1302, y: -800}
+      - {x: -651, y: -800}
+      - {x: -651, y: -1207}
+    - - {x: -281, y: -1177}
+      - {x: -281, y: -804}
+      - {x: 292, y: -804}
+      - {x: 292, y: -1177}
+    - - {x: 739, y: -1095}
+      - {x: 739, y: -794}
+      - {x: 1343, y: -794}
+      - {x: 1343, y: -1095}
+    - - {x: -1329, y: -2042}
+      - {x: -1329, y: -1747}
+      - {x: -739, y: -1747}
+      - {x: -739, y: -2042}
+    - - {x: 726, y: -1526}
+      - {x: 726, y: -1523}
+      - {x: 746, y: -1523}
+      - {x: 746, y: -1526}
+    - - {x: 848, y: -1780}
+      - {x: 848, y: -1757}
+      - {x: 868, y: -1757}
+      - {x: 868, y: -1780}
+========
     - serializedVersion: 2
       name: iso_15
       rect:
@@ -815,16 +1050,31 @@ TextureImporter:
       edges: []
       weights: []
     outline: []
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<<< HEAD:Inverted/Assets/JoseC/slimeCharacter.png.meta
+      slimeCharacter_9: -1682288098
+      slimeCharacter_0: -1303853518
+      slimeCharacter_4: 946658393
+      slimeCharacter_7: -2138262035
+      slimeCharacter_8: 639510692
+      slimeCharacter_5: 222411977
+      slimeCharacter_6: 1490508657
+      slimeCharacter_1: -1865380245
+      slimeCharacter_3: 878128986
+      slimeCharacter_10: 1484515613
+      slimeCharacter_2: 1221674578
+      slimeCharacter_11: 1415949737
+========
       iso_8: 1933753900
       iso_10: -1323415592
       iso_26: 1536931206
@@ -856,6 +1106,7 @@ TextureImporter:
       iso_21: -1963565860
       iso_17: -880391668
       iso_16: 1168439594
+>>>>>>>> Sarah:Inverted/Assets/sarah/assets/microFantasy.v0.4/microFantasy.v0.4/tilesets/iso.png.meta
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
