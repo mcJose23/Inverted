@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 10086498}
   - component: {fileID: 10086497}
+  - component: {fileID: 10086499}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (2)
   m_TagString: Untagged
@@ -207,6 +208,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.456}
+--- !u!61 &10086499
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10086496}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &16389293
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16389295}
   - component: {fileID: 16389294}
+  - component: {fileID: 16389296}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (30)
   m_TagString: Untagged
@@ -291,6 +319,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 379.94598}
+--- !u!61 &16389296
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16389293}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
+--- !u!1001 &17525817
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_RootOrder
+      value: 104
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -95.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 49.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004625, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 151183155409004971, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
+      propertyPath: m_Name
+      value: Player 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
 --- !u!1 &34727216
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,6 +424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 34727218}
   - component: {fileID: 34727217}
+  - component: {fileID: 34727219}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (33)
   m_TagString: Untagged
@@ -375,6 +499,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 360.561}
+--- !u!61 &34727219
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34727216}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &61542211
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61542213}
   - component: {fileID: 61542212}
+  - component: {fileID: 61542214}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (26)
   m_TagString: Untagged
@@ -459,6 +610,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -326.142}
+--- !u!61 &61542214
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61542211}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &63869677
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,6 +646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 63869679}
   - component: {fileID: 63869678}
+  - component: {fileID: 63869680}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (10)
   m_TagString: Untagged
@@ -543,6 +721,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &63869680
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63869677}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &78163397
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,6 +757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 78163399}
   - component: {fileID: 78163398}
+  - component: {fileID: 78163400}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (39)
   m_TagString: Untagged
@@ -627,6 +832,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 360.561}
+--- !u!61 &78163400
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78163397}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &91789029
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 91789031}
   - component: {fileID: 91789030}
+  - component: {fileID: 91789032}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (14)
   m_TagString: Untagged
@@ -711,6 +943,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -199.888}
+--- !u!61 &91789032
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91789029}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &141607503
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,6 +979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 141607505}
   - component: {fileID: 141607504}
+  - component: {fileID: 141607506}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (27)
   m_TagString: Untagged
@@ -795,6 +1054,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 360.561}
+--- !u!61 &141607506
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141607503}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &151082476
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,6 +1090,7 @@ GameObject:
   m_Component:
   - component: {fileID: 151082478}
   - component: {fileID: 151082477}
+  - component: {fileID: 151082479}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (22)
   m_TagString: Untagged
@@ -879,6 +1165,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18.841}
+--- !u!61 &151082479
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151082476}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &158990064
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,6 +1201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 158990066}
   - component: {fileID: 158990065}
+  - component: {fileID: 158990067}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (9)
   m_TagString: Untagged
@@ -963,6 +1276,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -176.197}
+--- !u!61 &158990067
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158990064}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &176912956
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,6 +1312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 176912958}
   - component: {fileID: 176912957}
+  - component: {fileID: 176912959}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (9)
   m_TagString: Untagged
@@ -1047,6 +1387,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 21.829}
+--- !u!61 &176912959
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176912956}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.601269, y: 5.09}
+    newSize: {x: 7.601269, y: 5.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.601269, y: 5.09}
+  m_EdgeRadius: 0
 --- !u!1 &183707647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,6 +1423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 183707649}
   - component: {fileID: 183707648}
+  - component: {fileID: 183707650}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_9
   m_TagString: Untagged
@@ -1131,6 +1498,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &183707650
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183707647}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.13, y: 4.51}
+    newSize: {x: 20.13, y: 4.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.13, y: 4.51}
+  m_EdgeRadius: 0
 --- !u!1 &187414656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,6 +1534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187414658}
   - component: {fileID: 187414657}
+  - component: {fileID: 187414659}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (26)
   m_TagString: Untagged
@@ -1215,6 +1609,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.809}
+--- !u!61 &187414659
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187414656}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &197262218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,6 +1645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 197262220}
   - component: {fileID: 197262219}
+  - component: {fileID: 197262221}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_9 (5)
   m_TagString: Untagged
@@ -1299,6 +1720,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -22.998}
+--- !u!61 &197262221
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197262218}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.13, y: 4.51}
+    newSize: {x: 20.13, y: 4.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.13, y: 4.51}
+  m_EdgeRadius: 0
 --- !u!1 &212128420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,6 +1756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 212128422}
   - component: {fileID: 212128421}
+  - component: {fileID: 212128423}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_9 (8)
   m_TagString: Untagged
@@ -1383,6 +1831,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.78}
+--- !u!61 &212128423
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212128420}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.13, y: 4.51}
+    newSize: {x: 20.13, y: 4.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.13, y: 4.51}
+  m_EdgeRadius: 0
 --- !u!1 &215722513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,6 +1867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 215722515}
   - component: {fileID: 215722514}
+  - component: {fileID: 215722516}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (2)
   m_TagString: Untagged
@@ -1467,6 +1942,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.456}
+--- !u!61 &215722516
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215722513}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.601269, y: 5.09}
+    newSize: {x: 7.601269, y: 5.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.601269, y: 5.09}
+  m_EdgeRadius: 0
 --- !u!1 &222902681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,6 +1978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 222902683}
   - component: {fileID: 222902682}
+  - component: {fileID: 222902684}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (17)
   m_TagString: Untagged
@@ -1551,6 +2053,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -24.386}
+--- !u!61 &222902684
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222902681}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &275582463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,6 +2089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 275582465}
   - component: {fileID: 275582464}
+  - component: {fileID: 275582466}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (7)
   m_TagString: Untagged
@@ -1635,6 +2164,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -191.708}
+--- !u!61 &275582466
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275582463}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &302105008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,6 +2200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 302105010}
   - component: {fileID: 302105009}
+  - component: {fileID: 302105011}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (6)
   m_TagString: Untagged
@@ -1719,6 +2275,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -24.386}
+--- !u!61 &302105011
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302105008}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &317554856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,6 +2311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 317554858}
   - component: {fileID: 317554857}
+  - component: {fileID: 317554859}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (21)
   m_TagString: Untagged
@@ -1803,6 +2386,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18.841}
+--- !u!61 &317554859
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317554856}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &334949449
 GameObject:
   m_ObjectHideFlags: 0
@@ -1813,6 +2422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 334949451}
   - component: {fileID: 334949450}
+  - component: {fileID: 334949452}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (32)
   m_TagString: Untagged
@@ -1887,6 +2497,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 336.739}
+--- !u!61 &334949452
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334949449}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &357428457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1897,6 +2533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 357428459}
   - component: {fileID: 357428458}
+  - component: {fileID: 357428460}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_3 (2)
   m_TagString: Untagged
@@ -1971,6 +2608,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -144.595}
+--- !u!61 &357428460
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357428457}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.0505092, y: 8.2}
+    newSize: {x: 3.0505092, y: 8.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0505092, y: 8.2}
+  m_EdgeRadius: 0
 --- !u!1 &358858440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1981,6 +2644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 358858442}
   - component: {fileID: 358858441}
+  - component: {fileID: 358858443}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_5
   m_TagString: Untagged
@@ -2055,6 +2719,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 157.825}
+--- !u!61 &358858443
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358858440}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.6807814, y: 13.76}
+    newSize: {x: 4.6807814, y: 13.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.6807814, y: 13.76}
+  m_EdgeRadius: 0
 --- !u!1 &388510799
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,6 +2755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 388510801}
   - component: {fileID: 388510800}
+  - component: {fileID: 388510802}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (8)
   m_TagString: Untagged
@@ -2139,6 +2830,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 21.829}
+--- !u!61 &388510802
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388510799}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.601269, y: 5.09}
+    newSize: {x: 7.601269, y: 5.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.601269, y: 5.09}
+  m_EdgeRadius: 0
 --- !u!1 &427866682
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,6 +2866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 427866684}
   - component: {fileID: 427866683}
+  - component: {fileID: 427866685}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_9 (3)
   m_TagString: Untagged
@@ -2223,6 +2941,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &427866685
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427866682}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.13, y: 4.51}
+    newSize: {x: 20.13, y: 4.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.13, y: 4.51}
+  m_EdgeRadius: 0
 --- !u!1 &428037613
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,6 +2977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 428037615}
   - component: {fileID: 428037614}
+  - component: {fileID: 428037616}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (1)
   m_TagString: Untagged
@@ -2307,6 +3052,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 20.833}
+--- !u!61 &428037616
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428037613}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &443611587
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,6 +3088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 443611589}
   - component: {fileID: 443611588}
+  - component: {fileID: 443611590}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (20)
   m_TagString: Untagged
@@ -2391,6 +3163,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18.841}
+--- !u!61 &443611590
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443611587}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &467172684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2401,6 +3199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 467172686}
   - component: {fileID: 467172685}
+  - component: {fileID: 467172687}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (11)
   m_TagString: Untagged
@@ -2475,6 +3274,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &467172687
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467172684}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &488181688
 GameObject:
   m_ObjectHideFlags: 0
@@ -2485,6 +3310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 488181690}
   - component: {fileID: 488181689}
+  - component: {fileID: 488181691}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_9 (4)
   m_TagString: Untagged
@@ -2559,6 +3385,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &488181691
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488181688}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.13, y: 4.51}
+    newSize: {x: 20.13, y: 4.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.13, y: 4.51}
+  m_EdgeRadius: 0
 --- !u!1 &559557028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,6 +3421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 559557030}
   - component: {fileID: 559557029}
+  - component: {fileID: 559557031}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (10)
   m_TagString: Untagged
@@ -2643,6 +3496,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.022}
+--- !u!61 &559557031
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559557028}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &568345527
 GameObject:
   m_ObjectHideFlags: 0
@@ -2653,6 +3532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 568345529}
   - component: {fileID: 568345528}
+  - component: {fileID: 568345530}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_2
   m_TagString: Untagged
@@ -2727,6 +3607,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &568345530
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568345527}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.54, y: 9.16}
+    newSize: {x: 10.54, y: 9.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.54, y: 9.16}
+  m_EdgeRadius: 0
 --- !u!1 &579375016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,6 +3643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 579375018}
   - component: {fileID: 579375017}
+  - component: {fileID: 579375019}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_3 (1)
   m_TagString: Untagged
@@ -2811,6 +3718,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 166.709}
+--- !u!61 &579375019
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579375016}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.0505092, y: 8.2}
+    newSize: {x: 3.0505092, y: 8.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0505092, y: 8.2}
+  m_EdgeRadius: 0
 --- !u!1 &605891023
 GameObject:
   m_ObjectHideFlags: 0
@@ -2821,6 +3754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 605891025}
   - component: {fileID: 605891024}
+  - component: {fileID: 605891026}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_3 (1)
   m_TagString: Untagged
@@ -2895,6 +3829,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &605891026
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605891023}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.47, y: 9.41}
+    newSize: {x: 4.47, y: 9.41}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.47, y: 9.41}
+  m_EdgeRadius: 0
 --- !u!1 &614086023
 GameObject:
   m_ObjectHideFlags: 0
@@ -2905,6 +3865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 614086025}
   - component: {fileID: 614086024}
+  - component: {fileID: 614086026}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (27)
   m_TagString: Untagged
@@ -2979,6 +3940,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.07}
+--- !u!61 &614086026
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614086023}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &634564824
 GameObject:
   m_ObjectHideFlags: 0
@@ -2989,6 +3976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 634564826}
   - component: {fileID: 634564825}
+  - component: {fileID: 634564827}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (21)
   m_TagString: Untagged
@@ -3063,6 +4051,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -203.546}
+--- !u!61 &634564827
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634564824}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &640417963
 GameObject:
   m_ObjectHideFlags: 0
@@ -3073,6 +4087,7 @@ GameObject:
   m_Component:
   - component: {fileID: 640417965}
   - component: {fileID: 640417964}
+  - component: {fileID: 640417966}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (5)
   m_TagString: Untagged
@@ -3147,6 +4162,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.456}
+--- !u!61 &640417966
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640417963}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.601269, y: 5.09}
+    newSize: {x: 7.601269, y: 5.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.601269, y: 5.09}
+  m_EdgeRadius: 0
 --- !u!1 &641795712
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,6 +4198,7 @@ GameObject:
   m_Component:
   - component: {fileID: 641795714}
   - component: {fileID: 641795713}
+  - component: {fileID: 641795715}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (5)
   m_TagString: Untagged
@@ -3231,6 +4273,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -23.15}
+--- !u!61 &641795715
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641795712}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &654835948
 GameObject:
   m_ObjectHideFlags: 0
@@ -3241,6 +4309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 654835950}
   - component: {fileID: 654835949}
+  - component: {fileID: 654835951}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (13)
   m_TagString: Untagged
@@ -3315,6 +4384,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &654835951
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654835948}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &673432029
 GameObject:
   m_ObjectHideFlags: 0
@@ -3325,6 +4420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 673432031}
   - component: {fileID: 673432030}
+  - component: {fileID: 673432032}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_5 (2)
   m_TagString: Untagged
@@ -3399,6 +4495,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 157.825}
+--- !u!61 &673432032
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673432029}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.6807814, y: 13.76}
+    newSize: {x: 4.6807814, y: 13.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.6807814, y: 13.76}
+  m_EdgeRadius: 0
 --- !u!1 &681020531
 GameObject:
   m_ObjectHideFlags: 0
@@ -3409,6 +4531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 681020533}
   - component: {fileID: 681020532}
+  - component: {fileID: 681020534}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_9 (6)
   m_TagString: Untagged
@@ -3483,6 +4606,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.78}
+--- !u!61 &681020534
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681020531}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.13, y: 4.51}
+    newSize: {x: 20.13, y: 4.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.13, y: 4.51}
+  m_EdgeRadius: 0
 --- !u!1 &701013122
 GameObject:
   m_ObjectHideFlags: 0
@@ -3493,6 +4642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701013124}
   - component: {fileID: 701013123}
+  - component: {fileID: 701013125}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (17)
   m_TagString: Untagged
@@ -3567,6 +4717,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -150.424}
+--- !u!61 &701013125
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701013122}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &736423065
 GameObject:
   m_ObjectHideFlags: 0
@@ -3577,6 +4753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 736423067}
   - component: {fileID: 736423066}
+  - component: {fileID: 736423068}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (15)
   m_TagString: Untagged
@@ -3651,6 +4828,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -150.424}
+--- !u!61 &736423068
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736423065}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &742450986
 GameObject:
   m_ObjectHideFlags: 0
@@ -3661,6 +4864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 742450988}
   - component: {fileID: 742450987}
+  - component: {fileID: 742450989}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (28)
   m_TagString: Untagged
@@ -3735,6 +4939,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 360.561}
+--- !u!61 &742450989
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742450986}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &767449256
 GameObject:
   m_ObjectHideFlags: 0
@@ -3745,6 +4975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 767449258}
   - component: {fileID: 767449257}
+  - component: {fileID: 767449259}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8
   m_TagString: Untagged
@@ -3819,6 +5050,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &767449259
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767449256}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &857913726
 GameObject:
   m_ObjectHideFlags: 0
@@ -3829,6 +5086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 857913728}
   - component: {fileID: 857913727}
+  - component: {fileID: 857913729}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (4)
   m_TagString: Untagged
@@ -3903,6 +5161,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.456}
+--- !u!61 &857913729
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857913726}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.601269, y: 5.09}
+    newSize: {x: 7.601269, y: 5.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.601269, y: 5.09}
+  m_EdgeRadius: 0
 --- !u!1 &865706323
 GameObject:
   m_ObjectHideFlags: 0
@@ -3913,6 +5197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 865706325}
   - component: {fileID: 865706324}
+  - component: {fileID: 865706326}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (18)
   m_TagString: Untagged
@@ -3987,6 +5272,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -24.386}
+--- !u!61 &865706326
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865706323}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &911527722
 GameObject:
   m_ObjectHideFlags: 0
@@ -3997,6 +5308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 911527724}
   - component: {fileID: 911527723}
+  - component: {fileID: 911527725}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (23)
   m_TagString: Untagged
@@ -4071,6 +5383,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -141.882}
+--- !u!61 &911527725
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911527722}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &933134542
 GameObject:
   m_ObjectHideFlags: 0
@@ -4081,6 +5419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 933134544}
   - component: {fileID: 933134543}
+  - component: {fileID: 933134545}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (4)
   m_TagString: Untagged
@@ -4155,6 +5494,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -13.285}
+--- !u!61 &933134545
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933134542}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &974638619
 GameObject:
   m_ObjectHideFlags: 0
@@ -4165,6 +5530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 974638621}
   - component: {fileID: 974638620}
+  - component: {fileID: 974638622}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_9 (2)
   m_TagString: Untagged
@@ -4239,6 +5605,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &974638622
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974638619}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.13, y: 4.51}
+    newSize: {x: 20.13, y: 4.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.13, y: 4.51}
+  m_EdgeRadius: 0
 --- !u!1 &1003203484
 GameObject:
   m_ObjectHideFlags: 0
@@ -4249,6 +5641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1003203486}
   - component: {fileID: 1003203485}
+  - component: {fileID: 1003203487}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (15)
   m_TagString: Untagged
@@ -4323,6 +5716,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -23.15}
+--- !u!61 &1003203487
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003203484}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1058690811
 GameObject:
   m_ObjectHideFlags: 0
@@ -4333,6 +5752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1058690813}
   - component: {fileID: 1058690812}
+  - component: {fileID: 1058690814}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (23)
   m_TagString: Untagged
@@ -4407,6 +5827,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 42.451}
+--- !u!61 &1058690814
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058690811}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1089067320
 GameObject:
   m_ObjectHideFlags: 0
@@ -4417,6 +5863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1089067322}
   - component: {fileID: 1089067321}
+  - component: {fileID: 1089067323}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (38)
   m_TagString: Untagged
@@ -4491,6 +5938,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 360.561}
+--- !u!61 &1089067323
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089067320}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1092301480
 GameObject:
   m_ObjectHideFlags: 0
@@ -4501,6 +5974,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1092301482}
   - component: {fileID: 1092301481}
+  - component: {fileID: 1092301483}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (14)
   m_TagString: Untagged
@@ -4575,6 +6049,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -14.561}
+--- !u!61 &1092301483
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092301480}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1102556410
 GameObject:
   m_ObjectHideFlags: 0
@@ -4585,6 +6085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1102556412}
   - component: {fileID: 1102556411}
+  - component: {fileID: 1102556413}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (8)
   m_TagString: Untagged
@@ -4659,6 +6160,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.898}
+--- !u!61 &1102556413
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102556410}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1134034130
 GameObject:
   m_ObjectHideFlags: 0
@@ -4669,6 +6196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134034132}
   - component: {fileID: 1134034131}
+  - component: {fileID: 1134034133}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (24)
   m_TagString: Untagged
@@ -4743,6 +6271,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -345.799}
+--- !u!61 &1134034133
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134034130}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1157612810
 GameObject:
   m_ObjectHideFlags: 0
@@ -4753,6 +6307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1157612812}
   - component: {fileID: 1157612811}
+  - component: {fileID: 1157612813}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (13)
   m_TagString: Untagged
@@ -4827,6 +6382,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -199.888}
+--- !u!61 &1157612813
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157612810}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1231159362
 GameObject:
   m_ObjectHideFlags: 0
@@ -4837,6 +6418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1231159364}
   - component: {fileID: 1231159363}
+  - component: {fileID: 1231159365}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (42)
   m_TagString: Untagged
@@ -4911,6 +6493,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 358.855}
+--- !u!61 &1231159365
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231159362}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1244973689
 GameObject:
   m_ObjectHideFlags: 0
@@ -4921,6 +6529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1244973691}
   - component: {fileID: 1244973690}
+  - component: {fileID: 1244973692}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (1)
   m_TagString: Untagged
@@ -4995,6 +6604,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.456}
+--- !u!61 &1244973692
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244973689}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.601269, y: 5.09}
+    newSize: {x: 7.601269, y: 5.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.601269, y: 5.09}
+  m_EdgeRadius: 0
 --- !u!1 &1269970238
 GameObject:
   m_ObjectHideFlags: 0
@@ -5005,6 +6640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1269970240}
   - component: {fileID: 1269970239}
+  - component: {fileID: 1269970241}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (5)
   m_TagString: Untagged
@@ -5079,6 +6715,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -191.708}
+--- !u!61 &1269970241
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269970238}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1333131525
 GameObject:
   m_ObjectHideFlags: 0
@@ -5089,6 +6751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1333131527}
   - component: {fileID: 1333131526}
+  - component: {fileID: 1333131528}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (1)
   m_TagString: Untagged
@@ -5163,6 +6826,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1333131528
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333131525}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1340371255
 GameObject:
   m_ObjectHideFlags: 0
@@ -5173,6 +6862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1340371257}
   - component: {fileID: 1340371256}
+  - component: {fileID: 1340371258}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (3)
   m_TagString: Untagged
@@ -5247,6 +6937,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -200.718}
+--- !u!61 &1340371258
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340371255}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1399039723
 GameObject:
   m_ObjectHideFlags: 0
@@ -5257,6 +6973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1399039725}
   - component: {fileID: 1399039724}
+  - component: {fileID: 1399039726}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_22 (1)
   m_TagString: Untagged
@@ -5331,6 +7048,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -52.513}
+--- !u!61 &1399039726
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399039723}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.56, y: 4.42}
+    newSize: {x: 3.56, y: 4.42}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.56, y: 4.42}
+  m_EdgeRadius: 0
 --- !u!1 &1400882126
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,6 +7084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1400882128}
   - component: {fileID: 1400882127}
+  - component: {fileID: 1400882129}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (3)
   m_TagString: Untagged
@@ -5415,6 +7159,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.456}
+--- !u!61 &1400882129
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400882126}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.601269, y: 5.09}
+    newSize: {x: 7.601269, y: 5.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.601269, y: 5.09}
+  m_EdgeRadius: 0
 --- !u!1 &1402641261
 GameObject:
   m_ObjectHideFlags: 0
@@ -5425,6 +7195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1402641263}
   - component: {fileID: 1402641262}
+  - component: {fileID: 1402641264}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (36)
   m_TagString: Untagged
@@ -5499,6 +7270,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 360.561}
+--- !u!61 &1402641264
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402641261}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1415320933
 GameObject:
   m_ObjectHideFlags: 0
@@ -5509,6 +7306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1415320935}
   - component: {fileID: 1415320934}
+  - component: {fileID: 1415320936}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (40)
   m_TagString: Untagged
@@ -5583,6 +7381,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 358.855}
+--- !u!61 &1415320936
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415320933}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1422845804
 GameObject:
   m_ObjectHideFlags: 0
@@ -5593,6 +7417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1422845806}
   - component: {fileID: 1422845805}
+  - component: {fileID: 1422845807}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (11)
   m_TagString: Untagged
@@ -5667,6 +7492,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -199.888}
+--- !u!61 &1422845807
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422845804}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1470643783
 GameObject:
   m_ObjectHideFlags: 0
@@ -5677,6 +7528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1470643785}
   - component: {fileID: 1470643784}
+  - component: {fileID: 1470643786}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (19)
   m_TagString: Untagged
@@ -5751,6 +7603,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -199.888}
+--- !u!61 &1470643786
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470643783}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1470733255
 GameObject:
   m_ObjectHideFlags: 0
@@ -5761,6 +7639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1470733257}
   - component: {fileID: 1470733256}
+  - component: {fileID: 1470733258}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_5 (1)
   m_TagString: Untagged
@@ -5835,6 +7714,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 336.596}
+--- !u!61 &1470733258
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470733255}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.6807814, y: 13.76}
+    newSize: {x: 4.6807814, y: 13.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.6807814, y: 13.76}
+  m_EdgeRadius: 0
 --- !u!1 &1476228400
 GameObject:
   m_ObjectHideFlags: 0
@@ -5845,6 +7750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1476228402}
   - component: {fileID: 1476228401}
+  - component: {fileID: 1476228403}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (9)
   m_TagString: Untagged
@@ -5919,6 +7825,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -24.386}
+--- !u!61 &1476228403
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476228400}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1490281837
 GameObject:
   m_ObjectHideFlags: 0
@@ -5929,6 +7861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490281839}
   - component: {fileID: 1490281838}
+  - component: {fileID: 1490281840}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_3 (3)
   m_TagString: Untagged
@@ -6003,6 +7936,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 166.709}
+--- !u!61 &1490281840
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490281837}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.0505092, y: 8.2}
+    newSize: {x: 3.0505092, y: 8.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0505092, y: 8.2}
+  m_EdgeRadius: 0
 --- !u!1 &1499445724
 GameObject:
   m_ObjectHideFlags: 0
@@ -6013,6 +7972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1499445726}
   - component: {fileID: 1499445725}
+  - component: {fileID: 1499445727}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (43)
   m_TagString: Untagged
@@ -6087,6 +8047,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 358.855}
+--- !u!61 &1499445727
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499445724}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1529121332
 GameObject:
   m_ObjectHideFlags: 0
@@ -6097,6 +8083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1529121334}
   - component: {fileID: 1529121333}
+  - component: {fileID: 1529121335}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (25)
   m_TagString: Untagged
@@ -6171,6 +8158,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.809}
+--- !u!61 &1529121335
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529121332}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1549100478
 GameObject:
   m_ObjectHideFlags: 0
@@ -6181,6 +8194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1549100480}
   - component: {fileID: 1549100479}
+  - component: {fileID: 1549100481}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (35)
   m_TagString: Untagged
@@ -6255,6 +8269,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 360.561}
+--- !u!61 &1549100481
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549100478}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1553690678
 GameObject:
   m_ObjectHideFlags: 0
@@ -6265,6 +8305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1553690680}
   - component: {fileID: 1553690679}
+  - component: {fileID: 1553690681}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (7)
   m_TagString: Untagged
@@ -6339,6 +8380,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -24.386}
+--- !u!61 &1553690681
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553690678}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1630439078
 GameObject:
   m_ObjectHideFlags: 0
@@ -6349,6 +8416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1630439080}
   - component: {fileID: 1630439079}
+  - component: {fileID: 1630439081}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (2)
   m_TagString: Untagged
@@ -6423,6 +8491,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1630439081
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630439078}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1639627201
 GameObject:
   m_ObjectHideFlags: 0
@@ -6433,6 +8527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1639627203}
   - component: {fileID: 1639627202}
+  - component: {fileID: 1639627204}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_22
   m_TagString: Untagged
@@ -6507,6 +8602,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 31.706}
+--- !u!61 &1639627204
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639627201}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.56, y: 4.42}
+    newSize: {x: 3.56, y: 4.42}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.56, y: 4.42}
+  m_EdgeRadius: 0
 --- !u!1 &1656775167
 GameObject:
   m_ObjectHideFlags: 0
@@ -6517,6 +8638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1656775169}
   - component: {fileID: 1656775168}
+  - component: {fileID: 1656775170}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (37)
   m_TagString: Untagged
@@ -6591,6 +8713,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 360.561}
+--- !u!61 &1656775170
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656775167}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1665118996
 GameObject:
   m_ObjectHideFlags: 0
@@ -6601,6 +8749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1665118998}
   - component: {fileID: 1665118997}
+  - component: {fileID: 1665118999}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (29)
   m_TagString: Untagged
@@ -6675,6 +8824,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 360.561}
+--- !u!61 &1665118999
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665118996}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1680276760
 GameObject:
   m_ObjectHideFlags: 0
@@ -6685,6 +8860,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1680276762}
   - component: {fileID: 1680276761}
+  - component: {fileID: 1680276763}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (12)
   m_TagString: Untagged
@@ -6759,6 +8935,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -199.888}
+--- !u!61 &1680276763
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680276760}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1681402694
 GameObject:
   m_ObjectHideFlags: 0
@@ -6769,6 +8971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1681402696}
   - component: {fileID: 1681402695}
+  - component: {fileID: 1681402697}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (20)
   m_TagString: Untagged
@@ -6843,6 +9046,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -150.424}
+--- !u!61 &1681402697
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681402694}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1687622951
 GameObject:
   m_ObjectHideFlags: 0
@@ -6853,6 +9082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1687622953}
   - component: {fileID: 1687622952}
+  - component: {fileID: 1687622954}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (8)
   m_TagString: Untagged
@@ -6927,6 +9157,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -24.386}
+--- !u!61 &1687622954
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687622951}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1722175579
 GameObject:
   m_ObjectHideFlags: 0
@@ -6937,6 +9193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1722175581}
   - component: {fileID: 1722175580}
+  - component: {fileID: 1722175582}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (7)
   m_TagString: Untagged
@@ -7011,6 +9268,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 31.464}
+--- !u!61 &1722175582
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722175579}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.601269, y: 5.09}
+    newSize: {x: 7.601269, y: 5.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.601269, y: 5.09}
+  m_EdgeRadius: 0
 --- !u!1 &1731587617
 GameObject:
   m_ObjectHideFlags: 0
@@ -7021,6 +9304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1731587619}
   - component: {fileID: 1731587618}
+  - component: {fileID: 1731587620}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (25)
   m_TagString: Untagged
@@ -7095,6 +9379,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -132.808}
+--- !u!61 &1731587620
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731587617}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1768404903
 GameObject:
   m_ObjectHideFlags: 0
@@ -7105,6 +9415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768404905}
   - component: {fileID: 1768404904}
+  - component: {fileID: 1768404906}
   m_Layer: 0
   m_Name: Mossy - BackgroundDecoration_1
   m_TagString: Untagged
@@ -7179,6 +9490,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1768404906
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768404903}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.38, y: 23.48}
+    newSize: {x: 10.38, y: 23.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.38, y: 23.48}
+  m_EdgeRadius: 0
 --- !u!1 &1820025608
 GameObject:
   m_ObjectHideFlags: 0
@@ -7189,6 +9526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1820025610}
   - component: {fileID: 1820025609}
+  - component: {fileID: 1820025611}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7
   m_TagString: Untagged
@@ -7263,6 +9601,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -9.821}
+--- !u!61 &1820025611
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820025608}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.601269, y: 5.09}
+    newSize: {x: 7.601269, y: 5.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.601269, y: 5.09}
+  m_EdgeRadius: 0
 --- !u!1 &1834885044
 GameObject:
   m_ObjectHideFlags: 0
@@ -7273,6 +9637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1834885046}
   - component: {fileID: 1834885045}
+  - component: {fileID: 1834885047}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (22)
   m_TagString: Untagged
@@ -7347,6 +9712,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -203.546}
+--- !u!61 &1834885047
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834885044}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1852252249
 GameObject:
   m_ObjectHideFlags: 0
@@ -7423,14 +9814,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852252249}
-  m_LocalRotation: {x: -0, y: -0, z: -0.057014436, w: 0.99837345}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 13.318721, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.537}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1895194573
 GameObject:
   m_ObjectHideFlags: 0
@@ -7441,6 +9832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1895194575}
   - component: {fileID: 1895194574}
+  - component: {fileID: 1895194576}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (24)
   m_TagString: Untagged
@@ -7515,6 +9907,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 360.561}
+--- !u!61 &1895194576
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895194573}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1952215371
 GameObject:
   m_ObjectHideFlags: 0
@@ -7525,6 +9943,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952215373}
   - component: {fileID: 1952215372}
+  - component: {fileID: 1952215374}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (16)
   m_TagString: Untagged
@@ -7599,6 +10018,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -24.386}
+--- !u!61 &1952215374
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952215371}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1956469959
 GameObject:
   m_ObjectHideFlags: 0
@@ -7609,6 +10054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1956469961}
   - component: {fileID: 1956469960}
+  - component: {fileID: 1956469962}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (12)
   m_TagString: Untagged
@@ -7683,6 +10129,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 21.829}
+--- !u!61 &1956469962
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956469959}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.601269, y: 5.09}
+    newSize: {x: 7.601269, y: 5.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.601269, y: 5.09}
+  m_EdgeRadius: 0
 --- !u!1 &1965388019
 GameObject:
   m_ObjectHideFlags: 0
@@ -7693,6 +10165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1965388021}
   - component: {fileID: 1965388020}
+  - component: {fileID: 1965388022}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_3 (4)
   m_TagString: Untagged
@@ -7767,6 +10240,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -144.595}
+--- !u!61 &1965388022
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965388019}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.0505092, y: 8.2}
+    newSize: {x: 3.0505092, y: 8.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0505092, y: 8.2}
+  m_EdgeRadius: 0
 --- !u!1 &1971515939
 GameObject:
   m_ObjectHideFlags: 0
@@ -7777,6 +10276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1971515941}
   - component: {fileID: 1971515940}
+  - component: {fileID: 1971515942}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3
   m_TagString: Untagged
@@ -7851,6 +10351,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1971515942
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971515939}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &1999686136
 GameObject:
   m_ObjectHideFlags: 0
@@ -7861,6 +10387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1999686138}
   - component: {fileID: 1999686137}
+  - component: {fileID: 1999686139}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (19)
   m_TagString: Untagged
@@ -7935,6 +10462,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18.841}
+--- !u!61 &1999686139
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999686136}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &2017674028
 GameObject:
   m_ObjectHideFlags: 0
@@ -7945,6 +10498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2017674030}
   - component: {fileID: 2017674029}
+  - component: {fileID: 2017674031}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (18)
   m_TagString: Untagged
@@ -8019,6 +10573,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 34.387}
+--- !u!61 &2017674031
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017674028}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &2032786283
 GameObject:
   m_ObjectHideFlags: 0
@@ -8029,6 +10609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2032786285}
   - component: {fileID: 2032786284}
+  - component: {fileID: 2032786286}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_3 (5)
   m_TagString: Untagged
@@ -8103,6 +10684,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 166.709}
+--- !u!61 &2032786286
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032786283}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.0505092, y: 8.2}
+    newSize: {x: 3.0505092, y: 8.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0505092, y: 8.2}
+  m_EdgeRadius: 0
 --- !u!1 &2049118530
 GameObject:
   m_ObjectHideFlags: 0
@@ -8113,6 +10720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2049118532}
   - component: {fileID: 2049118531}
+  - component: {fileID: 2049118533}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (4)
   m_TagString: Untagged
@@ -8187,6 +10795,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -14.561}
+--- !u!61 &2049118533
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049118530}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &2059737335
 GameObject:
   m_ObjectHideFlags: 0
@@ -8197,6 +10831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2059737337}
   - component: {fileID: 2059737336}
+  - component: {fileID: 2059737338}
   m_Layer: 0
   m_Name: Mossy - BackgroundDecoration_1 (1)
   m_TagString: Untagged
@@ -8271,6 +10906,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2059737338
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059737335}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.38, y: 23.48}
+    newSize: {x: 10.38, y: 23.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.38, y: 23.48}
+  m_EdgeRadius: 0
 --- !u!1 &2072666151
 GameObject:
   m_ObjectHideFlags: 0
@@ -8281,6 +10942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2072666153}
   - component: {fileID: 2072666152}
+  - component: {fileID: 2072666154}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_9 (7)
   m_TagString: Untagged
@@ -8355,6 +11017,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.78}
+--- !u!61 &2072666154
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072666151}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.13, y: 4.51}
+    newSize: {x: 20.13, y: 4.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.13, y: 4.51}
+  m_EdgeRadius: 0
 --- !u!1 &2095475337
 GameObject:
   m_ObjectHideFlags: 0
@@ -8365,6 +11053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2095475339}
   - component: {fileID: 2095475338}
+  - component: {fileID: 2095475340}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (6)
   m_TagString: Untagged
@@ -8439,6 +11128,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -9.445}
+--- !u!61 &2095475340
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095475337}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
 --- !u!1 &2096419298
 GameObject:
   m_ObjectHideFlags: 0
@@ -8449,6 +11164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2096419300}
   - component: {fileID: 2096419299}
+  - component: {fileID: 2096419301}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_3
   m_TagString: Untagged
@@ -8523,6 +11239,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -144.595}
+--- !u!61 &2096419301
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096419298}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.0505092, y: 8.2}
+    newSize: {x: 3.0505092, y: 8.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0505092, y: 8.2}
+  m_EdgeRadius: 0
 --- !u!1 &2101265648
 GameObject:
   m_ObjectHideFlags: 0
@@ -8533,6 +11275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2101265650}
   - component: {fileID: 2101265649}
+  - component: {fileID: 2101265651}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (3)
   m_TagString: Untagged
@@ -8607,6 +11350,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2101265651
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101265648}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &2108272174
 GameObject:
   m_ObjectHideFlags: 0
@@ -8617,6 +11386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2108272176}
   - component: {fileID: 2108272175}
+  - component: {fileID: 2108272177}
   m_Layer: 0
   m_Name: Mossy - FloatingPlatforms_8 (12)
   m_TagString: Untagged
@@ -8691,6 +11461,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2108272177
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108272174}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.61, y: 4.5}
+    newSize: {x: 15.61, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.61, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &2115668262
 GameObject:
   m_ObjectHideFlags: 0
@@ -8701,6 +11497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2115668264}
   - component: {fileID: 2115668263}
+  - component: {fileID: 2115668265}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_5 (3)
   m_TagString: Untagged
@@ -8775,6 +11572,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 339.091}
+--- !u!61 &2115668265
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115668262}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.6807814, y: 13.76}
+    newSize: {x: 4.6807814, y: 13.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.6807814, y: 13.76}
+  m_EdgeRadius: 0
 --- !u!1 &2140430264
 GameObject:
   m_ObjectHideFlags: 0
@@ -8785,6 +11608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2140430266}
   - component: {fileID: 2140430265}
+  - component: {fileID: 2140430267}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_3 (16)
   m_TagString: Untagged
@@ -8859,3 +11683,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 31.84}
+--- !u!61 &2140430267
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140430264}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.74, y: 6.26}
+    newSize: {x: 14.74, y: 6.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.74, y: 6.26}
+  m_EdgeRadius: 0
