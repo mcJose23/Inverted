@@ -7,7 +7,7 @@ public class killPlayer : MonoBehaviour
 {
     public int Respawn;
     private HealthManager healthManager;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +24,7 @@ public class killPlayer : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            healthManager.TakeDamage(25f);
+            healthManager.TakeDamage(10f);
             SceneManager.LoadScene(Respawn);
         }
     }

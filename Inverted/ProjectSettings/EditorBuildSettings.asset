@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/DavidC/Scenes/Respawn.unity
-    guid: f3fc2a906da05264ea4f626b5e7ae861
+    path: Assets/JoseC/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/DavidC/Scenes/New UI.unity
+    guid: 61005b1002186244689719b67c3b773c
+  - enabled: 1
+    path: Assets/sarah/sarah.unity
+    guid: b55283e84350e8348964ca567726fde4
   m_configObjects: {}
