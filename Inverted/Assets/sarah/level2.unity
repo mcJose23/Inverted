@@ -3326,6 +3326,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal
       objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735907, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: x
+      value: -117.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735907, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: y
+      value: 44.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3612,7 +3620,6 @@ GameObject:
   m_Component:
   - component: {fileID: 579375018}
   - component: {fileID: 579375017}
-  - component: {fileID: 579375019}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_3 (1)
   m_TagString: Untagged
@@ -3687,32 +3694,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 166.709}
---- !u!61 &579375019
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579375016}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.0505092, y: 8.2}
-    newSize: {x: 3.0505092, y: 8.2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.0505092, y: 8.2}
-  m_EdgeRadius: 0
 --- !u!1 &605891023
 GameObject:
   m_ObjectHideFlags: 0
@@ -4061,7 +4042,6 @@ GameObject:
   m_Component:
   - component: {fileID: 640417965}
   - component: {fileID: 640417964}
-  - component: {fileID: 640417966}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (5)
   m_TagString: Untagged
@@ -4136,32 +4116,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.456}
---- !u!61 &640417966
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 640417963}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.601269, y: 5.09}
-    newSize: {x: 7.601269, y: 5.09}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.601269, y: 5.09}
-  m_EdgeRadius: 0
 --- !u!1 &641795712
 GameObject:
   m_ObjectHideFlags: 0
@@ -5092,7 +5046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 151183155409004972, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
       propertyPath: jumpForce
-      value: 500
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 151183155409004972, guid: ddb26f394f31baf4aaa149335472e4c9, type: 3}
       propertyPath: moveSpeed
@@ -5118,7 +5072,6 @@ GameObject:
   m_Component:
   - component: {fileID: 857913728}
   - component: {fileID: 857913727}
-  - component: {fileID: 857913729}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (4)
   m_TagString: Untagged
@@ -5193,32 +5146,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.456}
---- !u!61 &857913729
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 857913726}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.601269, y: 5.09}
-    newSize: {x: 7.601269, y: 5.09}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.601269, y: 5.09}
-  m_EdgeRadius: 0
 --- !u!1 &865706323
 GameObject:
   m_ObjectHideFlags: 0
@@ -6561,7 +6488,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1244973691}
   - component: {fileID: 1244973690}
-  - component: {fileID: 1244973692}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (1)
   m_TagString: Untagged
@@ -6636,32 +6562,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.456}
---- !u!61 &1244973692
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244973689}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.601269, y: 5.09}
-    newSize: {x: 7.601269, y: 5.09}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.601269, y: 5.09}
-  m_EdgeRadius: 0
 --- !u!1 &1269970238
 GameObject:
   m_ObjectHideFlags: 0
@@ -7116,7 +7016,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1400882128}
   - component: {fileID: 1400882127}
-  - component: {fileID: 1400882129}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7 (3)
   m_TagString: Untagged
@@ -7191,32 +7090,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.456}
---- !u!61 &1400882129
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1400882126}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.601269, y: 5.09}
-    newSize: {x: 7.601269, y: 5.09}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.601269, y: 5.09}
-  m_EdgeRadius: 0
 --- !u!1 &1402641261
 GameObject:
   m_ObjectHideFlags: 0
@@ -7893,7 +7766,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1490281839}
   - component: {fileID: 1490281838}
-  - component: {fileID: 1490281840}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_3 (3)
   m_TagString: Untagged
@@ -7968,32 +7840,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 166.709}
---- !u!61 &1490281840
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1490281837}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.0505092, y: 8.2}
-    newSize: {x: 3.0505092, y: 8.2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.0505092, y: 8.2}
-  m_EdgeRadius: 0
 --- !u!1 &1499445724
 GameObject:
   m_ObjectHideFlags: 0
@@ -8438,6 +8284,71 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15.61, y: 4.5}
   m_EdgeRadius: 0
+--- !u!1001 &1598408856
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6866412999275735904, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_Name
+      value: Portal (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_RootOrder
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 158.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -118.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866412999275735932, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a483eeebdcb3c144986bc3051b794127, type: 3}
 --- !u!1 &1630439078
 GameObject:
   m_ObjectHideFlags: 0
@@ -9558,7 +9469,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1820025610}
   - component: {fileID: 1820025609}
-  - component: {fileID: 1820025611}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_7
   m_TagString: Untagged
@@ -9633,32 +9543,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -9.821}
---- !u!61 &1820025611
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1820025608}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.601269, y: 5.09}
-    newSize: {x: 7.601269, y: 5.09}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.601269, y: 5.09}
-  m_EdgeRadius: 0
 --- !u!1 &1834885044
 GameObject:
   m_ObjectHideFlags: 0
@@ -10628,7 +10512,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2032786285}
   - component: {fileID: 2032786284}
-  - component: {fileID: 2032786286}
   m_Layer: 0
   m_Name: Mossy - Hanging Plants_3 (5)
   m_TagString: Untagged
@@ -10703,32 +10586,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 166.709}
---- !u!61 &2032786286
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2032786283}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.0505092, y: 8.2}
-    newSize: {x: 3.0505092, y: 8.2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.0505092, y: 8.2}
-  m_EdgeRadius: 0
 --- !u!1 &2049118530
 GameObject:
   m_ObjectHideFlags: 0
